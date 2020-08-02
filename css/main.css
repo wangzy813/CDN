@@ -1,0 +1,48 @@
+.iconfont{
+    display: inline-block;
+    font-size: 1rem;
+}
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8CD790;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
+/* 字体 */
+@font-face {
+    font-family: 'sleek';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+
+.csdn_icon{
+    color: rgb(206, 0, 13);
+}
+.github_icon{
+    color: rgb(62, 117, 195);
+}
+.weixin_icon{
+    color: rgb(68, 149, 34);
+}
+.emil_icon{
+    color: rgb(235, 163, 58);
+}
+.bilibili_icon{
+    color: #D4237A;
+}
+.qq_icon{
+    color: rgb(123, 212, 239);
+}
