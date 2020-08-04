@@ -20,7 +20,7 @@
 
 ::-moz-selection {
     color: #fff;
-    background-color: #e58a8a;
+    background-color: rgb(9, 14, 58);
 }
 /* 字体 */
 @font-face {
