@@ -35,7 +35,7 @@
     color: rgb(62, 117, 195);
 }
 .weixin_icon{
-    color: rgb(68, 149, 34);
+    color: rgb(4, 190, 2)
 }
 .emil_icon{
     color: rgb(235, 163, 58);
@@ -45,4 +45,18 @@
 }
 .qq_icon{
     color: rgb(123, 212, 239);
+}
+#card-info-btn:hover::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('https://cdn.jsdelivr.net/gh/wangzy813/CDN@2.7/img/wx.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    top: -200px;
+    left: 15px;
 }
